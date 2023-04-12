@@ -5,7 +5,6 @@ namespace SOLIDPrinciples.LSP
     {
         public string Res { get; set; } = default!;
 
-        //postData, It could be an Array...
         public string SwitchObj(string postData)
         {
 
@@ -26,10 +25,9 @@ namespace SOLIDPrinciples.LSP
 
         public string FromArray(string[] postData)
         {
-
+            
             Res = "";
             PostDB db = new PostDB();
-
             //LSP
             Post postObj;
 
@@ -42,7 +40,6 @@ namespace SOLIDPrinciples.LSP
                 else postObj = new Post();
                 //LSP
                 Res += postObj.CreatePost(db, post);
-
             }
 
             return Res;

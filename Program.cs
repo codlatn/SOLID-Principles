@@ -12,12 +12,7 @@
             string[] postData = {"#Tag","@Mention","Hello" };
             string postList = LSP.FromArray(postData);
             Console.WriteLine("LSP -> FromArray Method : \n" + postList);
-
-
-
-             
                
         }
     }
-
 }

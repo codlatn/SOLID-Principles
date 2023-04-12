@@ -1,7 +1,5 @@
 namespace SOLIDPrinciples.ISP
 {
-
-
     public interface IOrderNoISP
     {
         void ProcessCashInvoice();
@@ -9,8 +7,5 @@ namespace SOLIDPrinciples.ISP
         void ProcessOnilePaymentInvoice();
         void ProcessInstallment();
     }
-
-
-
 
 }

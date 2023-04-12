@@ -1,6 +1,5 @@
 namespace SOLIDPrinciples.ISP
 {
-
      public class CashOrder : ICash
     {
         public void ProcessCashInvoice()
@@ -8,5 +7,4 @@ namespace SOLIDPrinciples.ISP
             throw new NotImplementedException();
         }
     }
-
 }
